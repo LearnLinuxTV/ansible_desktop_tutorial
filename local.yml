@@ -10,3 +10,20 @@
         - htop
         - tmux
         - vim-nox
+
+  - name: copy wallpaper file
+    copy:
+      src: files/wallpaper.png
+      dest: /usr/share/backgrounds/ansible-wallpaper.png
+      owner: root
+      group: root
+
+  - name: set wallpaper
+    dconf:
+      key: "/org/gnome/desktop/background/picture-uri"
+      value: "'file:///usr/share/backgrounds/ansible-wallpaper.png'"
+
+  - name: set wallpaper position
+    dconf:
+      key: "/org/gnome/desktop/background/picture-options"
+      value: "'zoom'"
