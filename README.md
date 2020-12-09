@@ -1,3 +1,12 @@
-# ansible_desktop
-Ansible configuration for desktops and laptops
-Used for the Ansible desktop config YouTube video
+# ansible_desktop_tutorial
+
+
+![Ansible Desktop Tutorial Logo](https://www.learnlinux.tv/ansible_desktop_bg/)
+
+This repository contains the code that I worked on in the Ansible Desktop tutorial.
+
+Check out the tutorial [here](https://youtu.be/gIDywsGBqf4) (video available December 11th 2020).
+
+You can go through the various commits to see the revision history along with the video.
+
+Thanks for watching!
