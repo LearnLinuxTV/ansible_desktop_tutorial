@@ -1,7 +1,8 @@
 # ansible_desktop_tutorial
 
-
+![bg](black)
 ![Ansible Desktop Tutorial Logo](https://www.learnlinux.tv/ansible_desktop_bg/)
+![bg](white)
 
 This repository contains the code that I worked on in the Ansible Desktop tutorial.
 
